@@ -1,19 +1,43 @@
 {
     "name": "vite-plugin-meta-env",
-    "private": true,
+    "private": false,
     "version": "0.0.0",
-    "type": "module",
+    "author": "wforguo@qq.com",
+    "description": "a vite plugin, define dynamic env variables in import.meta.env",
+    "license": "ISC",
+    "keywords": [
+        "vite-plugin-meta-env",
+        "dynamic env variables",
+        "import.meta.env",
+        "vite define",
+        "vite plugin",
+        "vite",
+        "vite",
+        "vue3",
+        "plugin",
+        "env",
+        "forguo",
+        "a vite plugin, define dynamic env variables in import.meta.env",
+        "用于在 vite 项目中暴露动态的或者不含前缀的环境变量"
+    ],
+    "homepage": "https://github.com/wei-design/vite-plugin-meta-env",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wei-design/vite-plugin-meta-env"
+    },
     "files": [
         "dist",
-        "index.d.ts"
+        "index.d.ts",
+        "readme.md"
     ],
-    "main": "./dist/counter.umd.cjs",
-    "module": "./dist/counter.js",
+    "type": "module",
+    "main": "./dist/meta-env.umd.cjs",
+    "module": "./dist/meta-env.js",
     "types": "./index.d.ts",
     "exports": {
         "types": "./index.d.ts",
-        "import": "./dist/counter.js",
-        "require": "./dist/counter.umd.cjs"
+        "import": "./dist/meta-env.js",
+        "require": "./dist/meta-env.umd.cjs"
     },
     "scripts": {
         "commit": "cz",
@@ -37,9 +61,12 @@
         "typescript": "^5.1.3",
         "vite": "^4.3.9"
     },
+    "engines": {
+        "node": ">=16.0.0"
+    },
     "lint-staged": {
         "*.{js,jsx,ts,tsx,vue}": [
-            "eslint --fix",
+            "npm run lint",
             "git add ."
         ]
     },

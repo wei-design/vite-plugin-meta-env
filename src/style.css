@@ -94,3 +94,14 @@ button:focus-visible {
         background-color: #f9f9f9;
     }
 }
+
+.version {
+    background: #646cff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 4px 6px;
+    margin-left: 6px;
+    color: #fff;
+    border-radius: 10px;
+    vertical-align: middle;
+}
