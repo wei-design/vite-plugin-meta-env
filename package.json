@@ -45,5 +45,10 @@
         "infile": "CHANGELOG.md"
       }
     }
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
