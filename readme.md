@@ -77,7 +77,7 @@ export default () => {
 
 在项目当中就可以通过 `import.meta.env.APP_VERSION` 来访问我们定义的环境变量了
 
-[demo](https://github.com/wforguo/vue3-quick-start/blob/master/vitest.config.ts)
+[demo](https://github.com/wforguo/vue3-quick-start/blob/master/vite.config.ts)
 
 [预览](https://wforguo.github.io/vue3-quick-start/)
 
