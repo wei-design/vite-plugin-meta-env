@@ -1,5 +1,12 @@
 
 
+# [0.2.0](https://github.com/wei-design/vite-plugin-meta-env/compare/0.1.0...0.2.0) (2023-07-15)
+
+
+### Features
+
+* 插件及代码优化，增加defineOn参数：变量定义位置 ([5d12009](https://github.com/wei-design/vite-plugin-meta-env/commit/5d12009d068f779ce5c81d84fc2688a85b8c5a34))
+
 # 0.1.0 (2023-07-14)
 
 
