@@ -29,15 +29,27 @@ define dynamic env variables in import.meta.env
 
 ## 二、使用
 
-- 安装
+### 1、安装
 
 ```bash
-pnpm i -D vite-plugin-meta-env
+pnpm add vite-plugin-meta-env -D
 ```
 
-- 配置
+### 2、配置
 
-`VitePluginMetaEnv` 接收一个对象作为参数，对象的 key 为变量名，value 为变量值。
+`VitePluginMetaEnv` 接收两个参数：
+
+```ts
+/**
+ * 使用 define 选项，暴露一个不含前缀的变量
+ * @param {EnvVars} vars 环境变量对象
+ * @param defineOn 变量定义位置
+ */
+```
+
+- 第一个参数：环境变量对象，`key` 为变量名，`value` 为变量值。
+
+- 第二个参数：变量定义位置，可选 `import.meta.env` 或者 `process.env`
 
 ```ts
 // vite.config.js
@@ -56,7 +68,8 @@ export default () => {
         // ...
         plugins: [
             // 添加插件
-            VitePluginMetaEnv(metaEnv)
+            VitePluginMetaEnv(metaEnv, 'import.meta.env'),
+            // VitePluginMetaEnv(metaEnv, 'process.env'),
         ]
     })
 }

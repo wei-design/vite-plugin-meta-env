@@ -18,5 +18,5 @@ export default defineConfig({
             fileName: 'meta-env'
         }
     },
-    plugins: [VitePluginMetaEnv(metaEnv)]
+    plugins: [VitePluginMetaEnv(metaEnv, 'import.meta.env')]
 })

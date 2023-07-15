@@ -1,4 +1,4 @@
 import type { Plugin } from 'vite'
-import { EnvVars } from './lib/main'
+import type { EnvVars } from './types'
 
-export function VitePluginMetaEnv(vars: EnvVars): Plugin
+export default function VitePluginMetaEnv(vars: EnvVars, defineOn: string): Plugin
