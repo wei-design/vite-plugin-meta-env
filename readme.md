@@ -1,6 +1,6 @@
 # vite-plugin-meta-env
 
-English | [简体中文](https://github.com/wei-design/vite-plugin-meta-env/readme.zh-CN.md)
+English | [简体中文](https://github.com/wei-design/vite-plugin-meta-env/blob/master/readme.zh-CN.md)
 
 [![commitizen](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli)
 [![Wei Design](https://img.shields.io/npm/v/vite-plugin-meta-env.svg?style=flat-square)](https://www.npmjs.org/package/vite-plugin-meta-env)
