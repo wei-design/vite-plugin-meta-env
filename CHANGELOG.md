@@ -1,5 +1,7 @@
 
 
+## [1.0.1](https://github.com/wei-design/vite-plugin-meta-env/compare/1.0.0...1.0.1) (2023-08-04)
+
 # [1.0.0](https://github.com/wei-design/vite-plugin-meta-env/compare/0.2.0...1.0.0) (2023-07-15)
 
 # [0.2.0](https://github.com/wei-design/vite-plugin-meta-env/compare/0.1.0...0.2.0) (2023-07-15)

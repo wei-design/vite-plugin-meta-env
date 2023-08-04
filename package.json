@@ -1,7 +1,7 @@
 {
     "name": "vite-plugin-meta-env",
     "private": false,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "wforguo@qq.com",
     "description": "a vite plugin, define dynamic env variables in import.meta.env",
     "license": "ISC",
