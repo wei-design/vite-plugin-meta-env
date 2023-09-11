@@ -13,9 +13,9 @@ define dynamic env variables in import.meta.env
 
 ### 使用场景
 
-- 1、**动态**的环境变量
+- 1、**动态** 的环境变量
 
-- 2、**不含前缀**的环境变量
+- 2、**不含前缀** 的环境变量
 
 ---
 

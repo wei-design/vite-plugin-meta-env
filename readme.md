@@ -2,10 +2,11 @@
 
 English | [简体中文](https://github.com/wei-design/vite-plugin-meta-env/blob/master/readme.zh-CN.md)
 
-[![commitizen](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli)
-[![Wei Design](https://img.shields.io/npm/v/vite-plugin-meta-env.svg?style=flat-square)](https://www.npmjs.org/package/vite-plugin-meta-env)
+[![vite-plugin-meta-env](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli)
+[![vite-plugin-meta-env](https://img.shields.io/npm/v/vite-plugin-meta-env.svg)](https://www.npmjs.org/package/vite-plugin-meta-env)
+[![vite-plugin-meta-env](https://img.shields.io/npm/dt/vite-plugin-meta-env)](https://www.npmjs.org/package/vite-plugin-meta-env)
 
-define dynamic env variables in import.meta.env
+define dynamic env variables in `import.meta.env`
 
 ## 1、Intro
 
@@ -13,9 +14,9 @@ This plugin is used in [vite](https://cn.vitejs.dev/) , Expose **dynamic** or **
 
 ### Usage
 
-- a、**dynamic**environment variables
+- a、**dynamic** environment variables
 
-- b、**without prefix**environment variables
+- b、**without prefix** environment variables
 
 ---
 
